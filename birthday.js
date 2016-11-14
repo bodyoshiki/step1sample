@@ -26,7 +26,7 @@ function calculateBirthday() {
   var birth = getBirthday();
 
   var diff = getDateDiff(birth, now);
-  var message = "You were born" + diff.days + "ago";
+  var message = "You were born " + diff.days + " ago.";
 
   var result = document.getElementById("result");
   result.textContent = message;
